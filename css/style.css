@@ -1,0 +1,332 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+    
+    box-sizing: border-box;
+}
+
+/* ------- MENU ---------------------------------------------------------- */
+
+
+.flex-container{
+    background: #1C1C1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.menu-nav a{
+    text-decoration: none;
+    padding: 23px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.menu-nav a:hover{
+    background: dimgray;
+    transition: ease-out 0.4s;
+    border-radius: 60px;
+    color: #1C1C1C;
+    
+}
+
+#logo{
+    width: 160px;
+}
+
+/* ------- primeira pag -------------------------------------------------------------------- */
+
+.capa{
+    background-image: url(../img/city2.jpg);
+    min-height: 100vh;                              /* --- Pagina toda --- */
+    background-size: cover;
+}
+
+#fundo {
+    height: 400px;
+    text-align: center;
+    padding-top: 7%;
+}
+
+body{
+   font-family: 'Recursive', sans-serif;
+}
+#titulo{
+    border: #d1d1d1 4px solid;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
+    background-color: rgba(0, 0, 0, 0.65);
+    font-size: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+    LINE-HEIGHT:60px;
+    color: #DCDCDC;
+}
+#subtitulo{
+    padding-right: 15%;
+    padding-left: 15%;
+    border: #d1d1d1 4px solid;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.719);
+    background-color: rgba(0, 0, 0, 0.65);  
+    color: #DCDCDC;
+}
+#botao-sm{
+    padding-top: 2%;
+}
+#ods11{
+    border: #1C1C1C 4px solid;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1C1C1C;
+    background-color: #DCDCDC;
+}
+#ods11:hover {
+    transition: ease-out;
+    background-color: dimgray;
+    color: #DCDCDC;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.719);
+}
+
+
+/* ------- Objetivo 11 --------------------------------------------------------------------- */
+
+.Objetivo{
+    background-color: #1C1C1C;    /* --- Pagina toda --- */
+    color: #DCDCDC;
+    text-align: center;
+    padding-top: 5%;
+}
+.secoes{    
+    display: flex;
+    margin: 0;                     /* --- Primeira coluna --- */
+    padding: 30px 0 30px 0;
+    margin: 2%;
+    box-shadow: 2px 10px 10px 10px black;
+    border-top: 5px #dcdcdcaf solid;
+}
+
+.secoes2{
+    display: flex;
+    margin: 0;                    /* --- Segunda coluna --- */
+    padding: 30px 0 30px 0;
+    border-top: 5px #dcdcdcaf solid;
+    margin: 2%;
+    box-shadow: 2px 10px 10px 10px black;
+}
+
+.ajuste{
+    flex: 25%;
+    text-align: center;           /* --- Ajuste das colunas --- */
+    padding: 0 10% 0 10%;
+
+}
+.icones{
+    width: 90px;
+}
+
+.icones:hover{
+     background-color: #dcdcdcc4;
+     padding: 10px 10px 10px 10px;
+     border-radius: 60px;
+}
+
+.video1{
+    border: rgb(22, 21, 21) 4px solid;
+}
+
+.titulomenu{
+    text-decoration: #DCDCDC underline;
+    color: #DCDCDC;                       /* --- Titulo da pagina --- */
+    font-size: 30px;
+    text-align: center;
+    border: #d1d1d1 4px solid;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 10px 10px 10px black;
+    background-color: #2c2c2c;
+}
+
+/* ------- exemplos --------------------------------------------------------------------- */
+
+.exemplos{
+    background-color: #2c2c2c;
+    max-width: 100%;                       /* --- Pagina toda --- */
+    padding-top: 5%;
+    text-align: center;
+}
+
+.paragrafo{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: #d1d1d1 4px solid;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 10px 10px 10px black;
+    background-color: rgba(0, 0, 0, 0.65);  
+    color: #DCDCDC;
+}
+.secao3{
+    display: flex;
+    padding: 60px 10px 60px 10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.caixas-ex1{
+    max-width: 400px;
+    margin: 30px;
+    flex: 30%;
+    box-shadow: 2px 7px 8px rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.65); 
+    color: #DCDCDC;
+    border-radius: 10px;
+}
+.caixas-ex1 img{
+    max-width: 100%;
+    height: 290px;
+    border-radius: 5px;
+}
+.caixas-ex1:hover{
+    box-shadow: 7px 7px 8px #181818;
+    transition: ease-out;
+}
+
+/* ------- Projeto --------------------------------------------------------------------- */
+
+.Projeto{
+    background-color: #1C1C1C;                /* --- Pagina toda --- */
+    padding-top: 5%;
+    color: #DCDCDC;
+    text-align: center;
+}
+.projeto-d{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 1%;
+    border-top: 5px #dcdcdcaf solid;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+.projeto-e{
+    text-align: end;
+    margin-top: 5%;
+    margin-right: 1%;
+    border-top: 5px #dcdcdcaf solid;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+.icones2{
+    width: 150px;
+    padding-top: 1%;
+}
+
+
+/* ------- sobre mim --------------------------------------------------------------------- */
+
+.sobre-mim{
+    background-color: #2c2c2c;
+    padding-top: 2%;
+}
+#foto-minha{
+    width: 250px;
+    border-radius: 10%;
+    box-shadow:  5px 7px 8px black;
+}
+#sobrem{
+    display: flex;
+}
+.ft{
+    margin: 1%;
+}
+.eu{
+    margin: 5%;
+    border: #d1d1d1 4px solid;
+    border-radius: 10px;
+    padding: 10px 10px 5px 10px;
+    background-color: rgba(0, 0, 0, 0.65);  
+    color: #DCDCDC;
+}
+#iconroda{
+    display: flex;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+.intameu{
+    max-width: 100%;
+    height: 50px;
+    padding-top: 5%;
+    border-top: 5px #d1d1d1 solid;
+}
+.icon{
+    flex: 1px;
+}
+
+/* ------- rodapé --------------------------------------------------------------------- */
+
+#rodape{
+    padding-top: 2%;
+    background-color: #1C1C1C;
+    border-top: dimgray 10px solid;
+    color: #DCDCDC;
+}
+#conteroda{
+    display: flex;
+}
+
+.rodape1{
+    padding-left: 10%;
+    padding-right: 20%;
+    text-align: center;
+}
+.roda{
+    border-top: solid 5px #d1d1d1;
+}
+
+
+/* ------- responsividade --------------------------------------------------------------------- */
+
+
+@media all and (max-width: 760px){
+
+    .menu-nav{
+        visibility: hidden;
+    }
+
+    .secoes, .secoes2, .secao3, #sobrem, #conteroda, .video1{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #titulo{
+        font-size: 20px;
+    }
+
+    #subtitulo{
+        font-size: 15px;
+    }
+
+
+}
+
+
